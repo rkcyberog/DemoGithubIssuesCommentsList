@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GameChange Assignment</string>
+    <string name="issues_error">Error in fetching</string>
+</resources>
