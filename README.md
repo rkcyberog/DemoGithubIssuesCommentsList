@@ -11,7 +11,7 @@
 
 ## Activity associated for given tasks
 1. ListOfIssuesActivity - For displaying list of issues
-1. ListOfCommentsActivity - For displaying comment related to the issues
+1. ListOfCommentsActivity - For displaying comments related to that issue
 
 
 
