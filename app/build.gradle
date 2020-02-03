@@ -35,6 +35,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation "androidx.cardview:cardview:1.0.0"
+
 
 
     //Dependency injection core
@@ -51,16 +54,21 @@ dependencies {
     def retrofitVersion = "2.5.0"
     implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
     implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.9.1'
+
 
     // ViewModel and LiveData
     def lifecycle_version = '2.2.0-alpha03'
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
 
     // Room
-    def room_version = "2.2.0-beta01" // alpha06 has bugs
+    def room_version = "2.2.0-beta01"
     implementation "androidx.room:room-runtime:$room_version"
     implementation "androidx.room:room-rxjava2:$room_version"
     kapt "androidx.room:room-compiler:$room_version"
+
+    debugImplementation 'com.amitshekhar.android:debug-db:1.0.3'
+
 
     // RxAndroid
     def rxandroid_version = '2.1.1'
@@ -77,5 +85,6 @@ dependencies {
     // Reactive Streams (convert Observable to LiveData)
     def reactivestreams_version = "1.1.1"
     implementation "android.arch.lifecycle:reactivestreams:$reactivestreams_version"
+
 
 }

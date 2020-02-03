@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/issues_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="4dp">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+
+    <TextView
+        android:id="@+id/issues_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Issues Number"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        />
+    <TextView
+        android:id="@+id/issues_title"
+        android:layout_below="@+id/issues_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Issues Title"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        />
+
+    <TextView
+        android:id="@+id/issues_body"
+        android:layout_below="@+id/issues_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Issues Body"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorAccent"
+        />
+
+  </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
