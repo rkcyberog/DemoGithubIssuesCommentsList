@@ -1,4 +1,4 @@
-# GitHub Isssues and Comments
+# GitHub Issues and Comments
 
 ## Architecture used
  MVVM Design Pattern with android architectural components with Kotlin, Dagger2 for DI, Room db for persistance storage,
